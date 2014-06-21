@@ -19,7 +19,8 @@
             android:id="@+id/enterSymbolTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/stock_symbol" />
+            android:text="@string/stock_symbol"
+            android:layout_marginRight="5dp"/>
 
         <!-- android:ems Defines the text size based off of the 
         specified point size 
@@ -46,7 +47,8 @@
             android:id="@+id/enterStockSymbolButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/enter_stock_symbol" />
+            android:text="@string/enter_stock_symbol"
+            android:layout_marginLeft="5dp"/>
 
     </TableRow>
 
@@ -67,9 +69,10 @@
 
         <TextView
             android:id="@+id/stockSymbolTextView"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_span="2"
+            android:layout_weight="1"
             android:gravity="center_horizontal"
             android:padding="5dp"
             android:text="@string/stock_symbol_list"
@@ -95,6 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_span="2"
+            android:layout_weight="1"
             android:padding="5dp" >
 
             <!-- android:stretchColumns Defines that you want 
